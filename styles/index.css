@@ -1,0 +1,114 @@
+body{
+    /*font-family:'Sriracha','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+    font-family: 'Spartan', sans-serif;
+    color:white;
+    margin: 0;
+    padding: 0;
+    width:100%;
+    background-image: url(/Images/safar-safarov-MSN8TFhJ0is-unsplash.jpg);
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
+    /* background-blend-mode: lighten; */
+    opacity: .9;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*background-color:rgb(70, 0, 20);*/
+    background-color: teal;
+    padding-left: 50px;
+    padding-right: 50px;
+    color:white;
+    height:70px;
+}
+.fas fa-bug{
+    size:10px;
+}
+#navigation{
+    display: flex;
+    justify-content: space-between;
+    /*border: 3px solid brown;*/
+    padding:30px;
+    font-size:20px;
+}
+
+.btn{
+    margin-left: 50px;
+    list-style: none;
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#links{
+    display: none;
+}
+#members:hover #links{
+    display: block;
+    position: absolute;
+    top:65px;
+    line-height: 70px;
+    background-color: rgb(70, 0, 20);
+    color:white;
+    text-align: center;
+    margin:0px;
+    padding: 0px;
+    width:130px;
+    border-radius: 7px;
+}
+#main-descipt{
+    
+}
+ 
+#links li{
+    list-style: none;
+    width: 100%;
+
+}
+#links li:hover {
+    background-color: teal;
+}
+
+#main-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /*align-items: flex-start;*/
+    /*border: 4px solid black;*/
+    padding: 30px;
+    font-size: 25px;
+    min-height: 100%;
+    background-color:transparent;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 125px;
+}
+#description{
+    width:50%;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#social-links{
+    display: inline;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    color: honeydew;
+    padding: 30px;
+
+}
+footer{
+    background-color: teal;
+    margin-bottom:0px ;
+    height:200px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
